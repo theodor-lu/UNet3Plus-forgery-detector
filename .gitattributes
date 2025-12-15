@@ -1,0 +1,96 @@
+# ============================================================================
+# Line Ending Configuration
+# ============================================================================
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+# Treat Jupyter notebooks as text but normalize to LF line endings
+# This prevents merge conflicts and line ending issues
+*.ipynb text eol=lf
+
+# ============================================================================
+# Source Code Files
+# ============================================================================
+# Python files
+*.py text eol=lf
+*.pyx text eol=lf
+*.pyi text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Configuration files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+
+# Markdown and documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# ============================================================================
+# Binary Files
+# ============================================================================
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+*.tiff binary
+*.tif binary
+*.svg binary
+*.webp binary
+
+# Model files and checkpoints
+*.pth binary
+*.pt binary
+*.ckpt binary
+*.h5 binary
+*.pb binary
+*.onnx binary
+*.pkl binary
+*.pickle binary
+*.model binary
+
+# Archives
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+*.7z binary
+*.rar binary
+
+# PDFs and documents
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+
+# Audio/Video
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.wav binary
+
+# ============================================================================
+# Windows-specific
+# ============================================================================
+# Batch files should use CRLF on Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+

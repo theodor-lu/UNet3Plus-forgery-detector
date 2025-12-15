@@ -1,0 +1,11 @@
+# ============================================================================
+# Data Directories (Large datasets - don't commit to git)
+# ============================================================================
+data/
+Cofomod/
+reference/
+archive/
+outputs/checkpoints/
+pretrained_models/
+saved_models/
+
